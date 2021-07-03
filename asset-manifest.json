@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/simple-form-ui/static/css/main.2ce5a00d.chunk.css",
-    "main.js": "/simple-form-ui/static/js/main.f5d6f760.chunk.js",
-    "main.js.map": "/simple-form-ui/static/js/main.f5d6f760.chunk.js.map",
+    "main.js": "/simple-form-ui/static/js/main.9d701e98.chunk.js",
+    "main.js.map": "/simple-form-ui/static/js/main.9d701e98.chunk.js.map",
     "runtime-main.js": "/simple-form-ui/static/js/runtime-main.ed5bd789.js",
     "runtime-main.js.map": "/simple-form-ui/static/js/runtime-main.ed5bd789.js.map",
     "static/js/2.45ccc16b.chunk.js": "/simple-form-ui/static/js/2.45ccc16b.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ed5bd789.js",
     "static/js/2.45ccc16b.chunk.js",
     "static/css/main.2ce5a00d.chunk.css",
-    "static/js/main.f5d6f760.chunk.js"
+    "static/js/main.9d701e98.chunk.js"
   ]
 }
