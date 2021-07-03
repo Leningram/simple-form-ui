@@ -8,7 +8,8 @@ export default class App extends Component {
         this.state = {
             email: "",
             password: "",
-            showPassword: false
+            showPassword: false,
+            showText: "Показать"
         };
         this.onSubmit = this.onSubmit.bind(this);
         this.handleChange = this.handleChange.bind(this);
@@ -28,6 +29,10 @@ export default class App extends Component {
     // Переключение показа/скрытия пароля
     togglePassword() {
         this.setState({ showPassword: !this.state.showPassword });
+
+        if (this.state.showText === "Показать") {
+            this.setState({ showText: "Скрыть" });
+        } else this.setState({ showText: "Показать" });
     }
 
     // Замена текста кнопки на анимированный спиннер загрузки
@@ -62,7 +67,7 @@ export default class App extends Component {
                         onChange={this.handleChange}
                     />
                     <span className="showPassword" onClick={this.togglePassword}>
-                        Показать пароль
+                        {this.state.showText} пароль
                     </span>
                     <button onClick={this.loadButton}>Sign In</button>
                 </form>
