@@ -51,7 +51,7 @@ export default class App extends Component {
             <div className="App">
                 <form onSubmit={this.onSubmit}>
                     <input
-                        type="text"
+                        type="email"
                         name="email"
                         className="text"
                         placeholder="Email"
@@ -66,9 +66,9 @@ export default class App extends Component {
                         value={this.state.password}
                         onChange={this.handleChange}
                     />
-                    <span className="showPassword" onClick={this.togglePassword}>
+                    <button className="showPassword" onClick={this.togglePassword}>
                         {this.state.showText} пароль
-                    </span>
+                    </button>
                     <button onClick={this.loadButton}>Sign In</button>
                 </form>
             </div>
